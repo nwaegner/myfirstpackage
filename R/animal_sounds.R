@@ -9,6 +9,8 @@
 #' @export
 #'
 #' @examples
+#' animal_sounds(animal = "cat", sound = "meow")
+#'
 animal_sounds <- function(animal, sound) {
   assertthat::assert_that(
     assertthat::is.string(animal),

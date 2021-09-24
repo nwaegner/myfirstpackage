@@ -17,3 +17,7 @@ A character string that is a sentence telling us what sound the given animal mak
 \description{
 This function creates a sentence for a given animal and sound.
 }
+\examples{
+animal_sounds(animal = "cat", sound = "meow")
+
+}
